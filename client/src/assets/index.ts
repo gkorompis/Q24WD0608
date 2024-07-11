@@ -4,3 +4,6 @@ export { default as IconBurger } from './img/burger-icon.png'
 export { default as IconClose } from './img/close-icon.png'
 
 export { default as ImgHowItWorks } from './img/subscription/how-it-works.jpg'
+
+export { default as EquipmentManual } from './img/equipment/equipment-1.jpg'
+export { default as EquipmentGiftSet } from './img/equipment/gift-set.jpg'

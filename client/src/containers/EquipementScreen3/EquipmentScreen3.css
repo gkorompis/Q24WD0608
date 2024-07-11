@@ -1,0 +1,108 @@
+.w-pc-equipment-screen3 {
+    /* height: 100vh; */
+    width: 100%;
+    padding-bottom: 10vh;
+    /* border: 1px solid red; */
+}
+
+.w-pc-equipment-screen3>
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 5vw;
+    box-sizing: border-box;
+    padding-top: 10vh
+}
+
+.w-pc-equipment-screen3>
+.wrapper>
+.screen-title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-bottom: 6vh;
+}
+.w-pc-equipment-screen3>
+.wrapper>
+.screen-title>
+h1{
+    font-size: 8vh;
+}
+
+.w-pc-equipment-screen3>
+.wrapper>
+.screen-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.w-pc-equipment-screen3>
+.wrapper>
+.screen-content>
+.conveyor {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-rows: 35vh;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.w-pc-equipment-screen3>
+.wrapper>
+.screen-content>
+.conveyor>
+.grid-item{
+    /* border: 0.5px solid gray; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.w-pc-equipment-screen3>
+.wrapper>
+.screen-content>
+.conveyor>
+.grid-item>
+.frame{
+    height: 90%;
+    width: 80%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    /* border: 1px solid green; */
+
+}
+
+.w-pc-equipment-screen3>
+.wrapper>
+.screen-content>
+.conveyor>
+.grid-item>
+.frame>
+img{
+    height: 40vh;
+    border-radius: 10px;
+}
+
+.w-pc-equipment-screen3>
+.wrapper>
+.screen-content>
+.conveyor>
+.grid-item>
+h2{
+    font-size: 3vh;
+    text-align: center;
+    /* border: 1px solid red; */
+}

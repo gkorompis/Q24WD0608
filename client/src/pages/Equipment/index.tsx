@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import globalStates from "../../utils/global"
-import { HomeScreen1, HomeScreen2 } from "../../containers";
+import { EquipmentScreen1, EquipmentScreen2, EquipmentScreen3, HomeScreen1, HomeScreen2 } from "../../containers";
 import { AppNavbar } from "../../components";
 // import { HomeScreen1 } from "../../containers";
 // import { AppNavbar } from "../../components";
@@ -13,8 +13,9 @@ const Equipment = () =>{
     return(
         <div>
             <AppNavbar/>
-            <HomeScreen1/>
-            <HomeScreen2/>
+            <EquipmentScreen1/>
+            <EquipmentScreen2/>
+            <EquipmentScreen3/>
         </div>
     )
 };
