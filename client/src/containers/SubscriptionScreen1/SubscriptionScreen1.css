@@ -1,0 +1,93 @@
+.w-pc-subscription-screen1 {
+    /* height: 100vh; */
+    width: 100%;
+}
+
+.w-pc-subscription-screen1>
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 5vw;
+    box-sizing: border-box;
+    padding-top: 30vh
+}
+
+.w-pc-subscription-screen1>
+.wrapper>
+.screen-title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+.w-pc-subscription-screen1>
+.wrapper>
+.screen-title>
+h1{
+    font-size: 8vh;
+}
+
+.w-pc-subscription-screen1>
+.wrapper>
+.screen-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    align-items: center;
+    justify-content: center;
+}
+.w-pc-subscription-screen1>
+.wrapper>
+.screen-content>
+section{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+
+.w-pc-subscription-screen1>
+.wrapper>
+.screen-content>
+.text-description{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 70%;
+}
+.w-pc-subscription-screen1>
+.wrapper>
+.screen-content>
+.text-description>
+p{
+    font-size: small;
+    margin-bottom: 1.3vh;
+}
+.w-pc-subscription-screen1>
+.wrapper>
+.screen-content>
+.image>
+.frame{
+    height: 70vh;
+    width: 70vh;
+    overflow:hidden;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+}
+
+.w-pc-subscription-screen1>
+.wrapper>
+.screen-content>
+.image>
+.frame>
+img{
+    height: 70vh;
+}

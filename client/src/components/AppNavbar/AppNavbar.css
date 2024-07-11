@@ -1,0 +1,210 @@
+.w-pc-app-navbar{
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+    z-index: 99999;
+}
+.w-pc-app-navbar.offset-screen-home1{
+    z-index: 99999;
+    /* backdrop-filter: blur(100px); */
+    background-color: #fff;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.273);
+}
+
+.w-pc-app-navbar>.anchor-group{
+    /* border: 0.4px solid grey; */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.w-pc-app-navbar>.anchor-group.bar-1{
+    justify-content: start;
+    padding-left: 2vw;
+}
+
+.w-pc-app-navbar>.anchor-group.bar-2>*{
+    font-size: 13px;
+    margin-inline: 1vw;
+    cursor: pointer;
+    user-select: none;
+}
+.w-pc-app-navbar>.anchor-group.bar-2>p:hover{
+    color: rgb(74, 74, 74);
+}
+.w-pc-app-navbar>.anchor-group.bar-3 {
+    justify-content: end;
+    padding-right: 2vw;
+}
+.w-pc-app-navbar>.anchor-group.bar-3>h3{
+    background-color: black;
+    padding-block: 2vh;
+    padding-inline: 1vw;
+    border-radius: 5px;
+    color: #fff;
+    user-select: none;
+    cursor: pointer;
+    transition: 0.3s ease;;
+}
+.w-pc-app-navbar>.anchor-group.bar-3>h3:hover{
+    background-color: rgb(40, 38, 38);
+}
+.w-pc-app-navbar>.anchor-group.bar-3>h3:active{
+    background-color: rgb(4, 3, 3);
+}
+
+
+/* tab view */
+.w-tab-app-navbar {
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 17% 66% 17%;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+    z-index: 9999;
+}
+
+.w-tab-app-navbar.offset-screen-home1 {
+    z-index: 9999;
+    /* backdrop-filter: blur(100px); */
+    background-color: #fff;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.273);
+}
+
+.w-tab-app-navbar>.anchor-group {
+    /* border: 0.4px solid grey; */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.w-tab-app-navbar>.anchor-group.bar-1 {
+    justify-content: start;
+    padding-left: 4vw;
+}
+.w-tab-app-navbar>.anchor-group.bar-1>h1{
+    font-size: 25px;
+}
+
+.w-tab-app-navbar>.anchor-group.bar-2>p {
+    font-size: 10px;
+    margin-inline: 1vw;
+    cursor: pointer;
+}
+
+.w-tab-app-navbar>.anchor-group.bar-3 {
+    justify-content: end;
+    padding-right: 4vw;
+}
+
+.w-tab-app-navbar>.anchor-group.bar-3>h3 {
+    font-size: 0.9vh;
+    background-color: black;
+    padding-block: 1.3vh;
+    padding-inline: 1.7vw;
+    border-radius: 5px;
+    color: #fff;
+    user-select: none;
+}
+
+
+/* mobile view */
+
+.w-mob-app-navbar {
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+    z-index: 9999;
+}
+
+.w-mob-app-navbar.offset-screen-home1 {
+    z-index: 9999;
+    /* backdrop-filter: blur(100px); */
+    background-color: #fff;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.273);
+}
+
+.w-mob-app-navbar>.anchor-group {
+    /* border: 0.4px solid grey; */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.w-mob-app-navbar>.anchor-group.bar-1 {
+    justify-content: start;
+    padding-left: 5vw;
+}
+.w-mob-app-navbar>.anchor-group.bar-2>h1 {
+    font-size: 30px;
+}
+
+.w-mob-app-navbar>.anchor-group.bar-2>p {
+    font-size: 13px;
+    margin-inline: 1vw;
+}
+
+.w-mob-app-navbar>.anchor-group.bar-3 {
+    justify-content: end;
+    padding-right: 5vw;
+    box-sizing: border-box;
+}
+
+.w-mob-app-navbar>.anchor-group.bar-3>h3 {
+    background-color: black;
+    padding-block: 2vh;
+    padding-inline: 1vw;
+    border-radius: 5px;
+    color: #fff
+}
+
+.w-mob-app-navbar>.anchor-group.bar-3>img{
+    height: 40px;
+}
+
+.mob-collapsed-bar{
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(13, 13, 13);
+    color: #fff;
+    padding-block: 4vh;
+    transition: 0.3s ease;
+}
+.mob-collapsed-bar>.close-button{
+    font-size: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    align-items: start;
+    box-sizing: border-box;
+    padding-right: 5vw;
+}
+.mob-collapsed-bar>p{
+    font-size: 11px;
+    margin-block:1vh;
+}
+.mob-collapsed-bar>.close-button>img{
+    height: 20px;
+    filter: invert(85%);
+}
