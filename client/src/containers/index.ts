@@ -9,3 +9,5 @@ export { default as SubscriptionScreen4 } from './SubscriptionScreen4'
 export { default as EquipmentScreen1 } from './EquipmentScreen1'
 export { default as EquipmentScreen2 } from './EquipementScreen2'
 export { default as EquipmentScreen3 } from './EquipementScreen3'
+
+export { default as ComingSoon } from './ComingSoon'
