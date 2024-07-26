@@ -92,3 +92,152 @@ p{
 img{
     height: 70vh;
 }
+
+/* tab */
+.w-tab-equipment-screen1 {
+    /* height: 100vh; */
+    height: 50vh;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.w-tab-equipment-screen1>.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 5vw;
+    box-sizing: border-box;
+    padding-top: 30vw
+}
+
+.w-tab-equipment-screen1>.wrapper>.screen-title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+
+.w-tab-equipment-screen1>.wrapper>.screen-title>h1 {
+    font-size: 8vw;
+}
+
+.w-tab-equipment-screen1>.wrapper>.screen-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    align-items: center;
+    justify-content: center;
+}
+
+.w-tab-equipment-screen1>.wrapper>.screen-content>section {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+
+.w-tab-equipment-screen1>.wrapper>.screen-content>.text-description {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 70%;
+}
+
+.w-tab-equipment-screen1>.wrapper>.screen-content>.text-description>p {
+    font-size: small;
+    margin-bottom: 1.3vh;
+}
+
+.w-tab-equipment-screen1>.wrapper>.screen-content>.image>.frame {
+    height: 70vh;
+    width: 70vh;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+}
+
+.w-tab-equipment-screen1>.wrapper>.screen-content>.image>.frame>img {
+    height: 70vh;
+}
+
+/* mobile */
+.w-mob-equipment-screen1 {
+    /* height: 100vh; */
+    height: 80vw;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.w-mob-equipment-screen1>.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 5vw;
+    box-sizing: border-box;
+    padding-top: 30vw;
+    height: 100%;
+}
+
+.w-mob-equipment-screen1>.wrapper>.screen-title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vw;
+}
+
+.w-mob-equipment-screen1>.wrapper>.screen-title>h1 {
+    font-size: 12vw;
+}
+
+.w-mob-equipment-screen1>.wrapper>.screen-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    align-items: center;
+    justify-content: center;
+}
+
+.w-mob-equipment-screen1>.wrapper>.screen-content>section {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+
+.w-mob-equipment-screen1>.wrapper>.screen-content>.text-description {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 70%;
+}
+
+.w-mob-equipment-screen1>.wrapper>.screen-content>.text-description>p {
+    font-size: small;
+    margin-bottom: 1.3vh;
+}
+
+.w-mob-equipment-screen1>.wrapper>.screen-content>.image>.frame {
+    height: 70vh;
+    width: 70vh;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+}
+
+.w-mob-equipment-screen1>.wrapper>.screen-content>.image>.frame>img {
+    height: 70vw;
+}

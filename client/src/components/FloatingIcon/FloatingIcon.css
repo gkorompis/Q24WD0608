@@ -1,0 +1,47 @@
+.w-pc-floating-icon {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+.w-pc-floating-icon>img {
+    height: 50px;
+    margin-inline: 5px;
+    cursor: pointer;
+}
+
+.w-pc-floating-icon>img:hover {
+    filter: sepia(70%)
+}
+
+.w-tab-floating-icon {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+.w-tab-floating-icon>img {
+    height: 70px;
+    margin-inline: 5px;
+    cursor: pointer;
+}
+
+.w-tab-floating-icon>img:hover {
+    filter: sepia(70%)
+}
+
+.w-mob-floating-icon {
+    position: fixed;
+    right: 24px;
+    bottom: 25px;
+}
+
+.w-mob-floating-icon>img {
+    height: 55px;
+    margin-inline: 7px;
+    cursor: pointer;
+}
+
+.w-mob-floating-icon>img:hover {
+    filter: sepia(70%)
+}

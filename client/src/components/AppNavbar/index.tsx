@@ -3,6 +3,7 @@ import globalStates from "../../utils/global";
 import "./AppNavbar.css";
 import { IconBurger, IconClose } from "../../assets";
 import { useNavigate } from "react-router-dom";
+import { FloatingIcon } from "..";
 
 const AppNavbar = ()=>{
 
@@ -73,6 +74,7 @@ const AppNavbar = ()=>{
                 }
             </div>
         </nav>
+
                 {
                             isCollapsed ?
                             <div className="mob-collapsed-bar">
@@ -86,6 +88,7 @@ const AppNavbar = ()=>{
                                 <p onClick={()=>handleNavigate("blog")}>Blog</p>
                             </div> : null
                         }
+                        <FloatingIcon/>
         </>
     )
 };
